@@ -1,0 +1,10 @@
+# calculations in one go, using two numbers that the user chooses. the numbers are placed into blank variables for ease of use
+x = float(input("write a number: "))
+print("you have chosen the number", x)
+y = float(input("write another number: "))
+print("you have chosen the number", y)
+input("press enter to proceed ")
+print(x, "+", y, " = ", x + y)
+print(x, "-", y, " = ", x - y)
+print(x, "x", y, " = ", x * y)
+print(x, ":", y, " = ", x / y)
