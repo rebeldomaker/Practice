@@ -1,4 +1,6 @@
-if x => 18 then:
+x = int(input("Type a number: "))
+
+if x >= 18:
     print("hah, dumass")
-    else:
+else:
     print("wtf ur underaged, gtfo!")
